@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo List</title>
+        <script defer src="api-client.js"></script>
+        <script defer src="script.js"></script>
+     </head>
+    <body>
+
+        <form id="new-task-form">
+            
+                <p>Eerst reloaden voordat de nieuwe To-Do zichtbaar is :)</p>
+                <label for="new-task">Ik moet nog:</label>
+                <input type="text" class="form-task" id="new-task" placeholder="Task">
+                <button type="submit" id="sumbit" class="btn-submit">Submit</button>
+                <button onclick="location.reload();" type="button" class="btn-submit">reload</button>
+            
+        </form>
+
+        <div class="container">
+            <ol id="taskList">
+
+            </ol>
+        </div>
+
+        
+
+        
+
+    </body>
+</html>
